@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Unbounded&display=swap');
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color: #ffffff;
+  height: 116px;
+  border-bottom: solid #b2b2b2;
+  text-align: center;
+  width: auto;
+}
+
+.G {
+  margin-top: 65px;
+  width: 100px;
+  height: 100%;
+}
+
+.R {
+  margin-top: 65px;
+  width: 100px;
+  height: 100%;
+}
+
+h5 {
+  margin: 0;
+  height: fit-content;
+  color: #808080;
+}
+
+.logo {
+  height: 97px;
+  width: 293px;
+  /* margin-top: 35px; */
+}
+
+.logotype {
+  display: flex;
+  align-items: flex-end;
+}
+
+.O {
+  margin-top: 65px;
+  width: 100px;
+  height: 100%;
+}
+
+.P {
+  margin-top: 65px;
+  width: 100px;
+  height: 100%;
+}
+
+.footer {
+  background-color: rgb(24, 24, 24);
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+p {
+  margin: 0%;
+  width: fit-content;
+  margin-top: 1%;
+  margin-left: 4%;
+  font-weight: lighter;
+  font-size: larger;
+}
+
+.footer-logo {
+  margin-top: 60px;
+  margin-left: 90px;
+  width: 50%;
+}
+
+.BG,
+.BR,
+.BO,
+.BP {
+  font-size: calc(16px + 4 * (100vw - 320px) / (1280 - 320));
+  text-decoration: none;
+  color: #000;
+}
+
+.us {
+  color: #afafaf;
+  font-size: 15px;
+  margin: 0;
+  margin-top: 30px;
+}
+
+.about-us {
+  flex-basis: 25%;
+}
+
+.who {
+  font-size: 20px;
+  color: #afafaf;
+  margin-top: 35px;
+}
+
+
+.sign-up {
+  margin-top: 30px;
+}
+
+.s {
+  font-size: 20px;
+  text-decoration: underline;
+  color: #afafaf;
+}
+
+.menu {
+
+  flex-basis: 25%;
+}
+
+.men {
+  color: #afafaf;
+  margin-bottom: 25px;
+  margin-top: 35px;
+  font-size: 20px;
+}
+
+
+p,
+a {
+  margin-bottom: 40px;
+  color: #afafaf;
+}
+
+.kvantums {
+  font-size: medium;
+  margin-top: 5px;
+  color: #afafaf;
+}
+
+.ourr {
+  width: fit-content;
+  margin: 0;
+  margin-top: 21px;
+  height: fit-content;
+  margin-left: 30px;
+  color: #000;
+}
+
+.orange {
+  margin: 0;
+  height: fit-content;
+  text-decoration: none;
+  color: orangered;
+}
+
+.kv {
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+}
+
+.kvantum {
+  font-size: calc(10px + (4 * (100vw - 320px)) / 960);
+  margin-top: 5px;
+  color: #afafaf;
+  margin-bottom: 0px;
+  text-decoration: none;
+}
+
+.nav {
+
+  /* display: flex;
+            flex-direction: column;
+              justify-content: space-around; */
+  height: 45%;
+}
+
+.contact {
+  flex-basis: 25%;
+}
+
+.cont {
+  font-size: 20px;
+  margin: 0;
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+
+.adress {
+
+  font-size: medium;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.tele {
+  margin: 0;
+  margin-bottom: 15PX;
+  font-size: medium;
+}
+
+.email {
+  font-size: medium;
+}
+
+
+.timetable * {
+  margin: 0;
+}
+
+.timetable {
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+
+  .timetable {
+    box-shadow: inset -1px 3px 4px rgba(90, 90, 90, 0.618);
+    flex-wrap: wrap;
+  }
+
+}
+
+.moths h1 {
+  margin: 40px;
+  font-weight: normal;
+  height: 45px;
+  width: 150px;
+  font-size: calc(25px + 5 * (100vw - 320px) / (1280 - 320));
+}
+
+.month {
+  height: 60px;
+  width: 200px;
+
+}
+
+.dates {
+  display: flex;
+  
+}
+
+.day {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.day p {
+
+  /* margin-right: 10px; */
+  color: #000;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  text-align: center;
+  height: 30px;
+  width: 30px;
+}
+
+.day div {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 500%;
+  position: relative;
+  box-shadow: inset -10px -10px 100px rgb(181, 217, 175), 10px 10px 20px rgb(255, 255, 255), inset 0px 0px 10px rgb(255, 255, 255);
+  display: inline-block;
+  margin: 10px;
+}
+
+.count {
+  display: flex;
+}
+
+.One,
+.Two {
+  flex-basis: 50%;
+}
+
+@media screen and (max-width: 767px) {
+
+  .One,
+  .Two {
+    flex-basis: 100%;
+    /* margin-top: 40px;
+          text-align: center; */
+  }
+
+}
+
+.visit {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  justify-content: flex-start;
+  /* order: -1; */
+}
+
+@media screen and (max-width: 767px) {
+
+  .visit {
+    order: -1;
+  }
+
+}
+
+.dotS {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 500%;
+  position: relative;
+  box-shadow: inset -10px -10px 100px rgb(181, 217, 175), 10px 10px 20px rgb(255, 255, 255), inset 0px 0px 10px rgb(255, 255, 255);
+  display: inline-block;
+  margin: 10px;
+}
+
+.dotJ {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 500%;
+  position: relative;
+  box-shadow: inset -10px -10px 100px rgb(246, 144, 144), 10px 10px 20px rgb(255, 255, 255), inset 0px 0px 10px rgb(255, 255, 255);
+  display: inline-block;
+  margin: 10px;
+}
+
+.S {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.J {
+  display: flex;
+  margin-left: 30px;
+}
+
+.Yes {
+  text-align: center;
+  /* height: 30px; */
+  /* width: 30px; */
+  color: #000;
+}
+
+.Not {
+  text-align: center;
+  /* height: 30px; */
+  /* width: 30px; */
+  color: #000;
+}
+
+.visit div ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+/* .A {
+     display: flex;
+     justify-content: center;
+     /* margin-left: 400px; */
+
+
+.B {
+  display: flex;
+  justify-content: center;
+  /* margin-bottom: 20px; */
+  /* margin-left: 415px; */
+}
+.logo-f{
+
+
+  flex-basis: 25%;
+
+}
+
+@media screen and (max-width: 675px) {
+  .count{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: inset -1px 3px 4px rgb(90 90 90 / 18%)
+    
+    
+  }
+  .month{
+    flex-basis: 100%;
+  }
+  .dates{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    flex-basis: 100%;
+  }
+  .visit{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .moths h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+}
+/* -------------------- */
+@media screen and (max-width: 1069px) {
+  .footer {
+       /* margin-top: 40px; */
+       text-align: center;
+  }
+
+  .footer>div {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       flex-basis: 50%;
+  }
+  .visit{
+    display: flex;
+    order: -1;
+    justify-content: center;
+  }
+
+  .us {
+       margin: 0px;
+  }
+
+  .about-us {
+       margin-top: 50px;
+  }
+
+  .contact,
+  .menu {
+       margin-top: 50px;
+  }
+  .footer{
+       flex-basis: 100%;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+       /* margin-top: 40px; */
+
+       text-align: center;
+  }
+
+  .footer>div {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       flex-basis: 100%;
+  }
+
+  .footer-logo {
+       width: 200px;
+       margin-left: 0px;
+       margin-top: 30px;
+  }
+}    
